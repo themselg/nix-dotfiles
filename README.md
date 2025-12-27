@@ -5,5 +5,5 @@ sh <(curl -L https://raw.githubusercontent.com/themselg/nix-dotfiles/main/instal
 
 Arguments
 ``` sh
--l    Laptop mode (wifi, firewall, fprintd, rnote and touchup) 
+-l    Laptop mode (firewall, fprintd, rnote and touchup) 
 ```
