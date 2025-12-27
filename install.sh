@@ -48,6 +48,6 @@ fi
 sudo cp "$LOCAL_DIR/configuration.nix" "$DEST_FILE"
 
 echo -e "${GREEN}[5/5] Reconstruyendo sistema (boot)...${NC}"
-sudo nixos-rebuild boot
+sudo nixos-rebuild switch
 
 echo -e "${GREEN}Reinicia para ver los cambios.${NC}"
