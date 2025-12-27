@@ -55,6 +55,7 @@ in
     "org.gnome.NautilusPreviewer"
     "org.gnome.Boxes"
     "org.gnome.SimpleScan"
+    "org.gnome.Firmware"
     "com.github.finefindus.eyedropper"
     "com.github.tchx84.Flatseal"
     "com.valvesoftware.Steam"
