@@ -30,6 +30,7 @@ echo -e "${GREEN}[1/5] Preparando directorio local...${NC}"
 mkdir -p "$LOCAL_DIR"
 
 echo -e "${GREEN}[2/5] Descargando configuration.nix...${NC}"
+rm -f $LOCAL_DIR/configuration.nix
 if curl -f -L "$FILE_URL" -o "$LOCAL_DIR/configuration.nix"; then
     echo "Descarga exitosa."
 else
