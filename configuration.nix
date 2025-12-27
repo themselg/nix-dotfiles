@@ -108,7 +108,6 @@ in
 
   networking = {
     networkmanager.enable = true;
-    wireless.enable = if isLaptop then true else false;
     firewall.enable = if isLaptop then true else false;
   };
 
