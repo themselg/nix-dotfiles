@@ -258,7 +258,7 @@ in
             "appindicatorsupport@rgcjonas.gmail.com" 
             "app-hider@lynith.dev" 
           ] ++ lib.optionals isLaptop [ 
-            "touchup@zren.github.io"
+            "touchup@mityax"
           ];
           "disabled-extensions" = [];
       };
