@@ -93,7 +93,7 @@ in
     stateVersion = "25.11";
     autoUpgrade = {
       enable = true;
-      operation = "boot";
+      operation = "switch";
       dates = "daily";
       channel = "https://channels.nixos.org/nixos-25.11";
     };
