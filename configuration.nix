@@ -303,6 +303,16 @@ in
       fi
     '';
 
-  };  
+  };
+
+fileSystems."/mnt/Datos" = lib.mkIf (!isLaptop) {
+  device = "/dev/disk/by-uuid/b45a914d-d61b-4b1f-8e09-5ad8173a1107";
+  fsType = "ext4";
+  options = [
+    "users"
+    "nofail"
+    "x-gvfs-show"
+  ];
+};
 
 }
